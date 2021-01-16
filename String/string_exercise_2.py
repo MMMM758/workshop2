@@ -9,7 +9,7 @@ string = "I am the best programmer"
 print(string[9:13])
 # จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ที่ไม่มี space
 string = "I am the best programmer"
-print(string.strip(" "))
+print(string.replace(" ", ""))
 # จงเขียนคำสั่งเพื่อแสดข้อความ "I am the best programmer" ให้เป็นตัวพิมใหญ่ทั้งหมด
 string = "I am the best programmer"
 print(string.upper())
