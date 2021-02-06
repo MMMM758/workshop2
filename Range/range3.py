@@ -1,3 +1,3 @@
 number_list = range(3, 37, 3)
-
-print(number_list)
+for n in number_list:
+    print(n)
